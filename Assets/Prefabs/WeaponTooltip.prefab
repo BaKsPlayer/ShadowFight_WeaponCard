@@ -238,7 +238,6 @@ GameObject:
   - component: {fileID: 3709183784670896536}
   - component: {fileID: 3709183784670896537}
   - component: {fileID: 3709183784670896538}
-  - component: {fileID: 3709183784670896550}
   m_Layer: 5
   m_Name: Stats
   m_TagString: Untagged
@@ -347,24 +346,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &3709183784670896550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709183784670896540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3d2258fa283445d8ba7941a03ad1e2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _damageBlock: {fileID: 3709183785666471034}
-  _damageText: {fileID: 3709183784778896018}
-  _criticalDamageBlock: {fileID: 3709183786084185037}
-  _criticalDamageText: {fileID: 3709183786509139496}
-  _magicBlock: {fileID: 3709183786709605358}
-  _magicText: {fileID: 3709183786585611935}
 --- !u!1 &3709183784674016702
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +359,6 @@ GameObject:
   - component: {fileID: 3709183784674016698}
   - component: {fileID: 3709183784674016699}
   - component: {fileID: 3709183784674016700}
-  - component: {fileID: 3709183784674016696}
   m_Layer: 5
   m_Name: Talents
   m_TagString: Untagged
@@ -486,24 +466,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &3709183784674016696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709183784674016702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 664525c428736410e9b25394ad1b5bde, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _firstTalentBlock: {fileID: 3709183786533274204}
-  _firstTalentTitleText: {fileID: 3709183784836192011}
-  _firstTalentDescriptionText: {fileID: 3709183784662179688}
-  _secondTalentBlock: {fileID: 3709183786088676345}
-  _secondTalentTitleText: {fileID: 3709183785189157352}
-  _secondTalentDescriptionText: {fileID: 3709183785547287413}
 --- !u!1 &3709183784683654493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,7 +1717,6 @@ GameObject:
   - component: {fileID: 3709183785837005406}
   - component: {fileID: 3709183785837005403}
   - component: {fileID: 3709183785837005404}
-  - component: {fileID: 3709183785837005402}
   m_Layer: 5
   m_Name: WeaponTooltip
   m_TagString: Untagged
@@ -1864,22 +1825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 2
---- !u!114 &3709183785837005402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3709183785837005392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e7c90c3c66c14644b7feab02d41b1e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _titleText: {fileID: 3709183786400334294}
-  _typeText: {fileID: 3709183784683654491}
-  _tooltipStats: {fileID: 3709183784670896550}
-  _tooltipTalents: {fileID: 3709183784674016696}
 --- !u!1 &3709183786084185037
 GameObject:
   m_ObjectHideFlags: 0
